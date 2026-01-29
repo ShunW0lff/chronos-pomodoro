@@ -1,12 +1,17 @@
 import './styles/theme.css'
 import './styles/global.css'
-import { Heading } from './components/Heading'
+import { Container } from './components/Container';
+
 
 export function App() {
   return (
     <>
-      <Heading />
-      <p>This is a paragraph</p>
+     <Container>
+      <section>Logo</section>
+     </Container>
+     <Container>
+      <section>Menu</section>
+     </Container>
     </>
   );
 }
